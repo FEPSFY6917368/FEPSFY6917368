@@ -143,8 +143,8 @@
         In: Proc, 17th Internat. Conf .on Machine Learning. Morgan Kaufman, Stanford, CA, 111-118
       </pre>
     </p>
-
-    <!-- //////////////////////////////////////////////////////////////////////////////// -->
+    
+        <!-- //////////////////////////////////////////////////////////////////////////////// -->
       <!-- ////////////////////////////// Adding last update ////////////////////////////// -->
       <!-- //////////////////////////////////////////////////////////////////////////////// -->
         <!-- Last commit time display -->
@@ -155,10 +155,10 @@
     </button>
     <script>
         async function getLastUpdatedTime() {
-            const username = 'nr6917368';
-            const repo = 'FY6917368';
-           
-            const url = `https://api.github.com/repos/${FEPSFY6917368}/${repo}/commits`;
+            const username = 'FEPSFY6917368';
+            const repo = 'FEPSFY6917368';
+          
+            const url = `https://api.github.com/repos/${username}/${repo}/commits`;
             try {
                 const response = await fetch(url, {
                     method: 'GET',
@@ -172,7 +172,7 @@
                 const commits = await response.json();
                 if (commits && commits.length > 0) {
                     const lastCommitDate = new Date(commits[0].commit.committer.date);
-                   
+                  
                     // Displaying the time on load
                     document.getElementById('last-updated').innerText = `Last Modified Time: ${lastCommitDate.toLocaleString()}`;
                 } else {
@@ -192,9 +192,9 @@
         // Initial load to display the time on page load
         window.onload = getLastUpdatedTime;
     </script>
-    
-    
-     <!-- //////////////////////////////////////////////////////////////////////////////// -->
+
+
+    <!-- //////////////////////////////////////////////////////////////////////////////// -->
       <!-- ////////////////////////////// Word count function ////////////////////////////// -->
       <!-- //////////////////////////////////////////////////////////////////////////////// -->
     <!-- Placeholder for total word count -->
@@ -218,14 +218,14 @@
         const IntroductionCount = displayWordCount("Introduction");
         const AnalysisCount = displayWordCount("Analysis");
         // Calculate the sum of all selected sections
-        const totalWordCount = Introduction + Analysis;
+        const totalWordCount = IntroductionCount + AnalysisCount;
         // Display the total word count
         document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
       }
       // Run the function for specific sections and display total count when the page loads
       window.onload = displayTotalWordCount;
     </script>
-    
+
   </body>
   
 </html>
