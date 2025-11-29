@@ -9,438 +9,294 @@
       name="viewport" 
       content="width=device-width, 
       initial-scale=1">
-    <style>
-
-      .mySlides {display:none;}
-
-      table {
-          font-family:arial, sans-serif;
-          border-collapse: collapse;
-          width: 30%;
-      }
-                
-      td, th {
-          border: 1px solid #dddddd;
-          text-align:left;
-          padding: 8px;
-      }
-                
-      tr:nth-child(even) {
-          background-color: #dddddd
-      }
-
-      div.container {
-          text-align: center;
-      }
-
-      .container img {
-          display: block;
-          margin: 0 auto;
-      }
-
-      ul.myUL {
-          display: inline-block;
-          text-align: left;
-      }
-              
-      p.exl {
-          margin-left: 250px;
-      }
-
-      h1 {
-          font-size: 40px;
-      }   
-
-      h2 {
-          font-size: 35px;
-          }  
-
-      h3 {
-          font-size: 30px;
-          }  
-
-      h5 {
-          font-size: 25px;
-          }  
-
-      p {
-          font-size: 30px;
-      }   
-
-      pre {
-          font-size: 25px;
-      }   
-
-
-      div {
-          margin: 50px;
-          border: 1px solid transparent;
-      }
-
-      img {
-        display: block;
-        margin: auto;
-        width: 50%;
-      }
-
-    </style>
-
-    <div class="container">
-      <img src="WebBanner.png" alt="Banner" style="width:100%;">
-    </div>
-    <h1 style="text-align:left";>
-      <b>ENG0018 Computer Laboratory</b>
-    </h1>
-    <h2 style="text-align:left";>
-      Student URN: 6917368
-    </h2>
+    <link rel="stylesheet" href="style.css">
 
   </head>
 
   <body style="background-color: #e4f0f1; font-family:calibri">
 
-    <h1 style="font-family:calibri; text-align:left;">
-      <b>
-        Conference paper: Why did Large Hovercraft become obselete?
-      </b>
-    </h1>
+    <section class="parallax">
+      <div class="text-section">
 
+        <div class="container">
+          <img src="Banner.png" alt="Banner" style="width:100%;">
+          <h2 style="text-align:center";>
+          <b>ENG0018 Computer Laboratory</b>
+          </h1>
+          <h2 style="text-align:cente";>
+            Student URN: 6917368
+          </h2>
+          <h1 style="font-family:calibri; text-align:center;">
+            <b>
+              Conference paper: Why did Large Hovercraft become obselete?
+            </b>
+          </h1>
+        </div>
 
-    <table style="width:100%;">
-      <tr>
-        <th style = "text-align:center;">
-          <h3>Table of contents</h3>
-        </th>
-      </tr>
-      <tr>
-        <td style="text-align:center;">
-          <h3><a href="#Abstract">Abstract</h3>
-          <h5><a href="#Introduction">Introduction</h5>
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align:center;">
-          <h3><a href="#Analysis">Analysis</h3>
-          <h5><a href="#lift_propulsion_system">Lifting System Analysis</h5>
-          <h5><a href="#structure_materials">Structure and Material Analysis</h5>
-          <h5><a href="#controllability">Controllability Analysis</h5>
-          <h5><a href="#economic">Economic Analysis</h5>
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align:center;">
-          <h3><a href="#Evaluation_and_Conclusion">Evaluation</h3>
-          <h5><a href="#References">References</h5>
-        </td>
-      </tr>
-    </table>
+        <hr>
+
+        <table style="width:100%;">
+          <tr>
+            <th style = "text-align:center;">
+              <h3>Table of contents</h3>
+            </th>
+          </tr>
+          <tr>
+            <td style="text-align:center;">
+              <h3><a href="#Abstract">Abstract</h3>
+              <h5><a href="#Introduction">Introduction</h5>
+            </td>
+          </tr>
+          <tr>
+            <td style="text-align:center;">
+              <h3>Analysis</h3>
+              <h5><a href="#lift_propulsion_system">Lifting and propulsion System Analysis</h5>
+              <h5><a href="#structure_materials">Structure and Material Analysis</h5>
+              <h5><a href="#controllability">Controllability Analysis</h5>
+              <h5><a href="#economic">Economic Analysis</h5>
+            </td>
+          </tr>
+          <tr>
+            <td style="text-align:center;">
+              <h3><a href="#Evaluation_and_conclusion">Evaluation</h3>
+              <h5><a href="#References">References</h5>
+            </td>
+          </tr>
+        </table>
+
+        <hr>
     
-    <div id="Abstract">
+        <div id="Abstract">
+          <h2 style="text-align:left;">Abstract</h2>
+          <p class="ex1" style="text-align:left;">
+            This report examines the SR.N4 Air-Cushioned Vehicle (ACV) Giant Hovercraft to identify 
+            the key factors that lead to its obsolescence. The analysis will cover four core aspects: 
+            lift and propulsion generation, structural and material integrity, controllability, and 
+            economic viability. Findings will show that despite the SR.N4 representing a major 
+            technological achievement; it ultimately succumbed to &#39basic economics: revenues, costs, 
+            and competition&#39 (Shipyard, 2023, section: an obsolete future). The SR.N4 endures as a 
+            testament to British innovation and as demonstrates the 
+            technological limitations of the time.
+          </p>
+          <p id="Introduction">
+            <h2 style="text-align:left;">Introduction</h2>
+            <p style="text-align:left;">
+              Hovercraft or air-cushioned vehicles (ACVs) operate on a cushion of air generated by 
+              downward. Patented by Sir Christopher Cockerell in 1955 (Britannica Editors, 2025, para. 
+              5 ) and led to the deployment of the SR.N4 in 1968, the first large-scale hovercraft. 
+              Despite being innovative and having an impressive range of capabilities, it suffered 
+              from significant engineering inefficiencies (Mustard, 2022). This report examines the 
+              SR. N4's shortcomings to explain its current obsolescence.
+            </p>
+          </p>
+          <br>
+          <img src="beach_1997.jpg" style="width:100%;">
+          <p style="text-align:center;">
+            <i>
+              The Princess Margaret SR.N4 Hovercraft in 1997 on the beach at Calais | Image source: David
+            </i>
+          </p>
+        </div>
 
-      <h2 style="text-align:left;">Abstract</h2>
-      <p class="ex1" style="text-align:left;">
-        This report examines the SR.N4 Air-Cushioned Vehicle (ACV) Giant Hovercraft to identify 
-        the key factors that lead to its obsolescence. The analysis will cover four core aspects: 
-        lift and propulsion generation, structural and material integrity, controllability, and 
-        economic viability. Findings will show that despite the SR.N4 representing a major 
-        technological achievement; it ultimately succumbed to &#39basic economics: revenues, costs, 
-        and competition&#39 (Shipyard, 2023, section: an obsolete future). The SR.N4 endures as a 
-        testament to British innovation and as demonstrates the 
-        technological limitations of the time.
-      </p>
+        <hr>
 
-      <p id="Introduction">
-        <h2 style="text-align:left;">Introduction</h2>
-        <p style="text-align:left;">
-          Hovercraft or air-cushioned vehicles (ACVs) operate on a cushion of air generated by 
-          downward. Patented by Sir Christopher Cockerell in 1955 (Britannica Editors, 2025, para. 
-          5 ) and led to the deployment of the SR.N4 in 1968, the first large-scale hovercraft. 
-          Despite being innovative and having an impressive range of capabilities, it suffered 
-          from significant engineering inefficiencies (Mustard, 2022). This report examines the 
-          SR. N4's shortcomings to explain its current obsolescence.
-        </p>
-      </p>
+          <div id="Analysis">
+            <h2 style="text-align:left;">Analysis</h2>
+            <h3 id="lift_propulsion_system" style="text-align:left;">Lift and Propulsion System Analysis</h3>
+            <p class="ex1" style="text-align:left;">
+              The SR. N4 Christopher Cockerell 1955 peripheral jet principle, whereby a powerful, centrifugal 
+              fan would force air into a plenum chamber (a chamber designed to collect + distribute air), then 
+              around the hull, forming a momentum curtain:  a high velocity air-curtain that trapped the air 
+              cushion below the belly of the hovercraft (James&#39 Hovercraft Site, 2009, webpage: How a Hovercraft 
+              Works), generating lift for the hovercraft. A rubber skirt was also added to trap the air pocket, 
+              reduce drag and allow movement over various terrain types (Yun and Bliault, 2000, page 48). 
+            </p>
+            <br>
+            <img src="hovercraft_diagram.jpg" style="width:100%;">
+            <p style="text-align:center;">
+              <i>
+                Image source: (Embry-Riddle: Aeronautical University) - Ground Effect Vehicles – Introduction to Aerospace Flight Vehicles
+              </i>
+            </p>
+            <p>
+              Four giant Rolls-Royce Marine Proteus gas turbines produced approximately 11.3 Megawatts of power 
+              in total, giving the SR.N4 speeds of 65-70 knots and lifting up to 320 tonnes when it was fully 
+              loaded (British Aerospace, 1972; James Hovercraft Website, 2009, page: SR.N4 system tour).
+            </p>
+            <img src="Bristol_proteus.jpg" style="width:100%;">
+            <p style="text-align:center;">
+              <i>
+                Bristol Proteus engine at Bristol Industrial Museum, Bristol, England. | Image source: Adrian Pingstone
+              </i>
+            </p>
+            <p>
+              Despite giving the SR. N4 had an excellent performance; it was very fuel-inefficient as it burned 
+              over 35,563 liters of Kerosene per engine for one crossing (James&#39 Hovercraft Website, 2009, page: 
+              SR.N4 system tour). In addition, due to being designed as aircraft engines, the gas turbines regularly 
+              ingested sea salt spray that eroded the turbines and caused cavitation (the formation and subsequent 
+              collapse of vapor bubbles that cause material degradation) in the propeller blades  (Yun and Bliault, 
+              2000, page 419). Furthermore, mechanical issues with the compressor and turbine blades, as well as the 
+              bearings failing at lower power settings (Stuart L. Slade, 2015, page 6), reduced overall reliability 
+              and increased maintenance costs and downtime (Mustard, 2022).
+            </p>
+            <br>
+            <h3 id="structure_materials" style="text-align:left;">Structure and Material Analysis</h3>
+            <p class="ex1" style="text-align:left;">
+              The SR.N4's hull was constructed from an aluminium-clad alloy that minimized its weight to maintain 
+              its manoeuvrability and structural integrity (Yun Bliaut, 2000, page 7). The hull itself was robust 
+              enough to withstand harsh weather.  
+            </p>
+            <img src="construction.jpg" style="width:100%;">
+            <p style="text-align:center;">
+              <i>
+              SR.N4 Hovercraft Construction Print, Isle of Wight 1967 | Author: Mary Evans
+              </i>
+            </p>
+            <p>
+              The skirt was made from flexible nylon rubber and was heavily segmented, meaning if sections tore off, 
+              other sections would expand to fill the vacancy and maintain lift (Ian Brooks, 2012, sect: segmented skirts).
+              The issue was that sections of the skirt had a short lifespan of only 300 operational hours (Dr E R Gardener 
+              and Mr J Morris, 1981, sect: High Speed Ferries), leading to constant skirt maintenance and replacement that 
+              further increased operating costs (Mustard, 2022).
+            </p>
+            <br>
+            <h3 id="controllability" style="text-align:left;">Controllability Analysis</h3>
+            <p class="ex1" style="text-align:left;">
+              Operationally, the SR.N4s functioned much like a 1950s passenger jet: requiring a captain, navigator, flight engineer 
+              and 11 cabin crew members (Mustard, 2022). The elevated height of the flight deck provided poor visibility that was further 
+              diminished by mist and sea spray generated by the SR.N4&#39s engines (Megaprojects, 2022). This meant pilots relied heavily on 
+              the navigator that used the navigation panel that consisted of a basic radio compass and short-range radar screens to maintain 
+              a general heading (James Hovercraft Site, 2009, page: SRN4 Mk III Cockpit). The limited radar range and high operating speeds made 
+              collision avoidance difficult, leading to several incidents, one of them fatal (Megaprojects, 2022).
+            </p>
+            <img src="sr-n4-cockpit.jpg" style="width:100%;">
+            <p class="ex1" style="text-align:center;">
+              <i>
+                SR.N4 Cockpit - Picture of The Hovercraft Museum, Lee-on-the-Solent; as can be seen in the image, the cockpit resembles more that on a 
+                traditional aircraft than a ship
+              </i>
+            </p>
+            <p>
+              The SR.N4&#39s steering and thrust controls were highly sensitive, needing continuous manual adjustments in rough seas or strong 
+              winds (James Hovercraft Site, 2009, page: SRN4 Mk III Cockpit). Additionally, with no automated systems or feedback assistance, 
+              the crew faced a heavy and stressful workload during operations; factors that made the controls limited and primitive by today&#39s standards.
+            </p>
+            <br>
+            <h3 id="economic" style="text-align:left;">Economic Analysis</h3>
+            <p class="ex1" style="text-align:left;">
+              The SR.N4&#39s design had many mechanical and inherent design limitations that are exemplified in the constant repair and 
+              replacement of gearboxes, turbines, and skirt segments. This made operational delays and cancellations quite severe 
+              and lost the operators lots of money (The Shipyard, 2023, sect: An Obsolete Future). The low passenger count didn&#39t 
+              cover costs despite charging premium prices; SR.N4s could only carry 418 passengers compared to 2,000 passengers 
+              onboard modern ferries (Swift, 2021, para. 7-8). By the 1980s, operators had already deemed the SR.N4 uneconomical 
+              and were looking to replace them with more economically sustainable alternatives as the new Catamarans that were introduced 
+              in the 1990s alongside the completion of the Channel Tunnel, driving the SR.N4 out of the market (The Tim Traveler, 2024 | 
+              The Shipyard, 2023, sect: An Obsolete Future).
+            </p>
+        </div>
+
+        <hr>
+
+        <div id="Evaluation_and_conclusion">
+          <h2 style="text-align:left;">Evaluation and Conclusion</h2>
+          <p class="ex1" style="text-align:left;">
+            The SR.N4 stemmed from a list of cumulative inefficiencies across all systems. Its aircraft-derived engines normally ingested a 
+            lot of air, but instead, ingested sea salt that accelerated engine corrosion while the skirt had a very limited lifespan; both 
+            required regular maintenance and replacement that was costly (Britannica Editors, 2009, para. 10). The consumption of 500 gallons 
+            of oil per crossing (Swift, 2021, para. 10) made operations very expensive and was exacerbated by the 1973-74 International Oil Crisis 
+            (Britannica Editors, 2009, para. 10). Ultimately, the SR.N4 was an over-engineered solution niche soon replaced by cheaper, more practical 
+            alternatives like the catamaran ferries and the Channel Tunnel (The Tim Traveller, 2024). 
+          </p>
+            <img src="SRN4_last_flight.jpg" style="width:100%;">
+            <p style="text-align:center;">
+              <i>
+                Mark III SR.N4 arriving in Dover on its last commercial flight October 2000 | Image: Andrew Berridge
+              </i>
+            </p>
+          <p>
+            Ambitious but economically unsustainable, the SR.N4 exceeded the practical economic capabilities of the era, but its material limitations, 
+            high fuel consumption and operational difficulty made it commercially unviable. Despite this, the SR.N4 represents a brilliant feat of marine 
+            engineering: a machine of technological brilliance constrained by economics and impracticability.
+          </p>
+        </div>
+
+        <hr>
+
+        <div id="References">
+          <h2>References</h2>
+          <ul class="reference-list">
+            <li>Bliault, A. and Yun, L, (2000) Theory and Design of Air Cushion Craft. London: Butterworth-Heinemann. Available at: 
+              <a href="https://beta.the-eye.eu/public/Books/World%20Tracker%20Library/worldtracker.org/media/library/Engineering/Aero/Theory%20Design%20Air%20Cushion%20Craft.pdf" target="_blank">
+                Bliault, A. and Yun, L, (2000) Theory and Design of Air Cushion Craft. London: Butterworth-Heinemann
+              </a> 
+              (Accessed: 21st October 2025)</li>
+            <li>British Aerospace, (1972) Propping across the Channel. Aircraft Engineering and Aerospace Technology: An International Journal. Available at: 
+              <a href="https://www-emerald-com.surrey.idm.oclc.org/aeat/article-pdf/50/3/9/330074/eb035431.pdf" target="_blank">
+                British Aerospace, (1972) Propping across the Channel. Aircraft Engineering and Aerospace Technology: An International Journal
+              </a> 
+              (Accessed: 21st October 2025)</li>
+            <li>James’ Hovercraft Site – Hoverwork (2009) British Hovercraft Corporation SR.N4 (Mountbatten Class). Available at: 
+              <a href="https://www.hovercraft.org.uk/" target="_blank">
+                James’ Hovercraft Site – Hoverwork (2009) British Hovercraft Corporation SR.N4 (Mountbatten Class
+              </a> 
+              (Accessed: 21st October 2025)</li>
+            <li>Swift Half (2021). Lost at Sea? Why Did the Last Hover Giants Glide into History? Available at: 
+              <a href="https://www.swifthalf.com/lost-hovercraft-history" target="_blank">
+                Swift Half (2021). Lost at Sea? Why Did the Last Hover Giants Glide into History?
+              </a> 
+              (Accessed: 21st October 2025)</li>
+            <li>The Shipyard (2023). What happened to Britain’s passenger hovercraft? Available at: 
+              <a href="https://www.theshipyard.co.uk/british-hovercraft-history" target="_blank">
+                The Shipyard (2023). What happened to Britain’s passenger hovercraft?
+              </a> 
+              (Accessed: 5th November 2025)</li>
+            <li>Stuart L. Slade (2015) Competing manufacturer of Marine Gas Turbines – A Special Descriptive Market Analysis. Available at: 
+              <a href="https://www.marineturbineanalysis.com" target="_blank">
+                Stuart L. Slade (2015) Competing manufacturer of Marine Gas Turbines – A Special Descriptive Market Analysis.
+              </a> 
+              (Accessed: 5th November 2025)</li>
+            <li>Mustard (2022). What happened to Giant Hovercraft? Available at: 
+              <a href="https://www.youtube.com/watch?v=HnJLT8wFyhY" target="_blank">
+                Mustard (2022). What happened to Giant Hovercraft?
+              </a> 
+              (Accessed: 20th October 2025)</li>
+            <li>The Tim Traveller (2024) The Last Surviving Giant Passenger Hovercraft. Available at: 
+              <a href="https://www.youtube.com/watch?v=x5jmrW1HvMQ&t=429s" target="_blank">
+                The Tim Traveller (2024) The Last Surviving Giant Passenger Hovercraft.
+              </a> 
+              (Accessed: 8th November 2025)</li>
+            <li>Britannica Editors (2025) Hovercraft Vehicle. Available at: 
+              <a href="https://www.britannica.com/technology/Hovercraft#ref1062041" target="_blank">
+                Britannica Editors (2025) Hovercraft Vehicle.
+              </a> 
+              (Accessed: 8th November 2025)</li>
+            <li>Dr E R Gardener and Mr J Morris – Third International Hovercraft Conference (1981) Hovercraft Skirt Materials. Available at: 
+              <a href="https://usercontent.one/wp/www.thehovercraftsociety.org.uk/wp-content/uploads/2022/06/1981-Skirt-materials.pdf?media=1679063169" target="_blank">
+                Dr E R Gardener and Mr J Morris – Third International Hovercraft Conference (1981) Hovercraft Skirt Materials.
+              </a> 
+              (Accessed: 12th November 2025)</li>
+          </ul>
+        </div>
+
+        <!--Update function-->
+        <!-- Last commit time display -->
+        <div id="last-updated">Loading last update time...</div>
+        <!-- Verify Button -->
+        <button onclick="verifyLastUpdatedTime()" style="display: block; margin: 10px auto; padding: 8px 16px;">
+            Verify Last Modified Time
+        </button>
+
+        <!--word count function-->
+        <!-- Placeholder for total word count -->
+        <hr>
+        <p id="totalWordCount"></p>
+
+        <script src="Update.js"></script>
+        <script src="WordCount.js"></script>
+
+      </div>
+    </section>
     
-        <br>
-
-      <img src="beach_1997.jpg" style="width:100%;">
-      <p style="text-align:center;">
-        <i>
-          The Princess Margaret SR.N4 Hovercraft in 1997 on the beach at Calais | Image source: David
-        </i>
-      </p>
-
-    </div>
-
-      <div>
-        <h2 id="Analysis_and_discussion" style="text-align:left;">Analysis</h2>
-        <p id="Analysis" style="text-align:left;"></p>
-        <h3 id="lift_propulsion_system" style="text-align:left;">Lift and Propulsion System Analysis</h3>
-        <p class="ex1" style="text-align:left;">
-          The SR. N4 Christopher Cockerell 1955 peripheral jet principle, whereby a powerful, centrifugal 
-          fan would force air into a plenum chamber (a chamber designed to collect + distribute air), then 
-          around the hull, forming a momentum curtain:  a high velocity air-curtain that trapped the air 
-          cushion below the belly of the hovercraft (James&#39 Hovercraft Site, 2009, webpage: How a Hovercraft 
-          Works), generating lift for the hovercraft. A rubber skirt was also added to trap the air pocket, 
-          reduce drag and allow movement over various terrain types (Yun and Bliault, 2000, page 48). 
-        </p>
-
-        <img src="hovercraft_diagram.jpg" style="width:100%;">
-        <p style="text-align:center;">
-          <i>
-            Image source: (Embry-Riddle: Aeronautical University) - Ground Effect Vehicles – Introduction to Aerospace Flight Vehicles
-          </i>
-        </p>
-
-        <p>
-          Four giant Rolls-Royce Marine Proteus gas turbines produced approximately 11.3 Megawatts of power 
-          in total, giving the SR.N4 speeds of 65-70 knots and lifting up to 320 tonnes when it was fully 
-          loaded (British Aerospace, 1972; James Hovercraft Website, 2009, page: SR.N4 system tour).
-        </p>
-
-        <img src="Bristol_proteus.jpg" style="width:100%;">
-        <p style="text-align:center;">
-          <i>
-            Bristol Proteus engine at Bristol Industrial Museum, Bristol, England. | Image source: Adrian Pingstone
-          </i>
-        </p>
-
-        <p>
-          Despite giving the SR. N4 had an excellent performance; it was very fuel-inefficient as it burned 
-          over 35,563 liters of Kerosene per engine for one crossing (James&#39 Hovercraft Website, 2009, page: 
-          SR.N4 system tour). In addition, due to being designed as aircraft engines, the gas turbines regularly 
-          ingested sea salt spray that eroded the turbines and caused cavitation (the formation and subsequent 
-          collapse of vapor bubbles that cause material degradation) in the propeller blades  (Yun and Bliault, 
-          2000, page 419). Furthermore, mechanical issues with the compressor and turbine blades, as well as the 
-          bearings failing at lower power settings (Stuart L. Slade, 2015, page 6), reduced overall reliability 
-          and increased maintenance costs and downtime (Mustard, 2022).
-        </p>
-
-      </div>
-
-      <div>
-
-        <h3 id="structure_materials" style="text-align:left;">Structure and Material Analysis</h3>
-        <p class="ex1" style="text-align:left;">
-          The SR.N4's hull was constructed from an aluminium-clad alloy that minimized its weight to maintain 
-          its manoeuvrability and structural integrity (Yun Bliaut, 2000, page 7). The hull itself was robust 
-          enough to withstand harsh weather. 
-        </p>
-
-        <img src="construction.jpg" style="width:100%;">
-        <p style="text-align:center;">
-          <i>
-          SR.N4 Hovercraft Construction Print, Isle of Wight 1967 | Author: Mary Evans
-          </i>
-        </p>
-
-        <p>
-          The skirt was made from flexible nylon rubber and was heavily segmented, meaning if sections tore off, 
-          other sections would expand to fill the vacancy and maintain lift (Ian Brooks, 2012, sect: segmented skirts).
-          The issue was that sections of the skirt had a short lifespan of only 300 operational hours (Dr E R Gardener 
-          and Mr J Morris, 1981, sect: High Speed Ferries), leading to constant skirt maintenance and replacement that 
-          further increased operating costs (Mustard, 2022).
-        </p>
-
-      </div>
-
-      <div>
-        <h3 id="controllability" style="text-align:left;">Controllability Analysis</h3>
-        <p class="ex1" style="text-align:left;">
-          Operationally, the SR.N4s functioned much like a 1950s passenger jet: requiring a captain, navigator, flight engineer 
-          and 11 cabin crew members (Mustard, 2022). The elevated height of the flight deck provided poor visibility that was further 
-          diminished by mist and sea spray generated by the SR.N4&#39s engines (Megaprojects, 2022). This meant pilots relied heavily on 
-          the navigator that used the navigation panel that consisted of a basic radio compass and short-range radar screens to maintain 
-          a general heading (James Hovercraft Site, 2009, page: SRN4 Mk III Cockpit). The limited radar range and high operating speeds made 
-          collision avoidance difficult, leading to several incidents, one of them fatal (Megaprojects, 2022).
-        </p>
-
-        <img src="sr-n4-cockpit.jpg" style="width:100%;">
-        <p class="ex1" style="text-align:center;">
-          <i>
-            SR.N4 Cockpit - Picture of The Hovercraft Museum, Lee-on-the-Solent; as can be seen in the image, the cockpit resembles more that on a 
-            traditional aircraft than a ship
-          </i>
-        </p>
-
-        <p>
-          The SR.N4&#39s steering and thrust controls were highly sensitive, needing continuous manual adjustments in rough seas or strong 
-          winds (James Hovercraft Site, 2009, page: SRN4 Mk III Cockpit). Additionally, with no automated systems or feedback assistance, 
-          the crew faced a heavy and stressful workload during operations; factors that made the controls limited and primitive by today&#39s standards.
-        </p>
-        
-      </div>
-      
-      <div>
-        <h3 id="economic" style="text-align:left;">Economic Analysis</h3>
-        <p class="ex1" style="text-align:left;">
-          The SR.N4&#39s design had many mechanical and inherent design limitations that are exemplified in the constant repair and 
-          replacement of gearboxes, turbines, and skirt segments. This made operational delays and cancellations quite severe 
-          and lost the operators lots of money (The Shipyard, 2023, sect: An Obsolete Future). The low passenger count didn&#39t 
-          cover costs despite charging premium prices; SR.N4s could only carry 418 passengers compared to 2,000 passengers 
-          onboard modern ferries (Swift, 2021, para. 7-8). By the 1980s, operators had already deemed the SR.N4 uneconomical 
-          and were looking to replace them with more economically sustainable alternatives as the new Catamarans that were introduced 
-          in the 1990s alongside the completion of the Channel Tunnel, driving the SR.N4 out of the market (The Tim Traveler, 2024 | 
-          The Shipyard, 2023, sect: An Obsolete Future).
-        </p>
-      </div>
-
-    <div id="Evaluation_and_conclusion">
-
-      <h2 style="text-align:left;">Evaluation and Conclusion</h2>
-      <p class="ex1" style="text-align:left;">
-        The SR.N4 stemmed from a list of cumulative inefficiencies across all systems. Its aircraft-derived engines normally ingested a 
-        lot of air, but instead, ingested sea salt that accelerated engine corrosion while the skirt had a very limited lifespan; both 
-        required regular maintenance and replacement that was costly (Britannica Editors, 2009, para. 10).. The consumption of 500 gallons 
-        of oil per crossing (Swift, 2021, para. 10) made operations very expensive and was exacerbated by the 1973-74 International Oil Crisis 
-        (Britannica Editors, 2009, para. 10). Ultimately, the SR.N4 was an over-engineered solution niche soon replaced by cheaper, more practical 
-        alternatives like the catamaran ferries and the Channel Tunnel (The Tim Traveller, 2024). 
-      </p>
-
-        <img src="SRN4_last_flight.jpg" style="width:100%;">
-        <p style="text-align:center;">
-          <i>
-            Mark III SR.N4 arriving in Dover on its last commercial flight October 2000 | Image: Andrew Berridge
-          </i>
-        </p>
-
-      <p>
-        Ambitious but economically unsustainable, the SR.N4 exceeded the practical economic capabilities of the era, but its material limitations, 
-        high fuel consumption and operational difficulty made it commercially unviable. Despite this, the SR.N4 represents a brilliant feat of marine 
-        engineering: a machine of technological brilliance constrained by economics and impracticability.
-      </p>
-
-    </div>
-
-    <div id="References">
-      <h2 style="text-align:center">References</h2>
-      <br>
-      <pre class="ex1" style="text-align:left;">
-          Bliault, A. and Yun, L, (2000) Theory and Design of Air Cushion Craft. London: Butterworth-Heinemann. 
-          Available at: https://beta.the-eye.eu/public/Books/World%20Tracker%20Library/worldtracker.org/media/library
-          /Engineering/Aero/Theory%20Design%20Air%20Cushion%20Craft.pdf 
-          (Accessed: 21st  October 2025]
-
-          British Aerospace, (1972) Propping across the Channel. Aircraft Engineering and Aerospace Technology
-          : An International Journal. 
-          Available at: https://www-emerald-com.surrey.idm.oclc.org/aeat/article-pdf/50/3/9/330074/eb035431.pdf 
-          (Accessed: 21st October 2025)
-
-          James’ Hovercraf Site – Hoverwork (2009) British Hovercraft Corporation SR.N4 (Mountbatten Class) 
-          Available at: British Hovercraft Corporation SR.N4 (Mountbatten Class) :: James' Hovercraft Site 
-          (Accessed 21st October 2025)
-
-          Swift Half (2021). Lost at Sea? Why Did the Last Hover Giants Glide into History? 
-          Available at: Lost at sea? Why did the last hover giants glide into history? - Swift Half 
-          (Accessed 21st October 2025)
-
-          The Shipyard (2023). What happened to Britain’s passenger hovercraft? 
-          Available at: What Happened to Britain’s Passenger Hovercraft? | The Shipyard 
-          (Accessed 5th November 2025)
-
-          Stuart L. Slade (2015) Competing manufacturer of Marine Gas Turbines – A Special Descriptive Market Analysis. 
-          Available at: Competing Manufacturers of Marine Gas Turbines.pdf 
-          (Accessed on 5th November 2025)
-
-          Mustard (2022). What happened to Giant Hovercraft? 
-          Available at: https://www.youtube.com/watch?v=HnJLT8wFyhY 
-          (Accessed 20th October 2025)
-
-          The Tim Traveller (2024) The Last Surviving Giant Passenger Hovercraft 
-          Available at: https://www.youtube.com/watch?v=x5jmrW1HvMQ&t=429s 
-          (Accessed 8th November 2025)
-
-          Britannica Editors (2025) Hovercraft Vehicle.  
-          Available at: https://www.britannica.com/technology/Hovercraft#ref1062041 
-          (Accessed 8th November 2025)
-
-          Dr E R Gardener and Mr J Morris – Third International Hovercraft Conference (1981) Hovercraft Skirt Materials 
-          Available at: https://usercontent.one/wp/www.thehovercraftsociety.org.uk/wp-content/uploads/2022/06/1981-
-          Skirt-materials.pdf?media=1679063169 
-          (Accessed 12th November 2025)
-      </pre>
-    </div>
-    
-<script src="scripts.js"></script>
-
-    <!--Update function-->
-    <!-- Last commit time display -->
-    <div id="last-updated">Loading last update time...</div>
-    <!-- Verify Button -->
-    <button onclick="verifyLastUpdatedTime()" style="display: block; margin: 10px auto; padding: 8px 16px;">
-        Verify Last Modified Time
-    </button>
-    <script>
-        async function getLastUpdatedTime() {
-            const username = 'FEPSFY6917368';
-            const repo = 'FEPSFY6917368';
-          
-            const url = `https://api.github.com/repos/${username}/${repo}/commits`;
-            try {
-                const response = await fetch(url, {
-                    method: 'GET',
-                    headers: {
-                        'Accept': 'application/vnd.github.v3+json',
-                    }
-                });
-                if (!response.ok) {
-                    throw new Error(`Error fetching data: ${response.status} - ${response.statusText}`);
-                }
-                const commits = await response.json();
-                if (commits && commits.length > 0) {
-                    const lastCommitDate = new Date(commits[0].commit.committer.date);
-                  
-                    // Displaying the time on load
-                    document.getElementById('last-updated').innerText = `Last Modified Time: ${lastCommitDate.toLocaleString()}`;
-                } else {
-                    document.getElementById('last-updated').innerText = 'No commits found in the repository.';
-                }
-            } catch (error) {
-                console.error('Error fetching the last updated time:', error);
-                document.getElementById('last-updated').innerText = 'Error fetching update time. Please check the repository details.';
-            }
-        }
-        // Function to verify the last update time by re-fetching it from the API
-        async function verifyLastUpdatedTime() {
-            document.getElementById('last-updated').innerText = 'Verifying...';
-            await getLastUpdatedTime();
-            alert("Last modified time has been successfully verified from GitHub API.");
-        }
-        // Initial load to display the time on page load
-        window.onload = getLastUpdatedTime;
-    </script>
-
-    <!--word count function-->
-    <!-- Placeholder for total word count -->
-    <p id="totalWordCount"></p>
-    <hr>
-    <script>
-      // Function to calculate and display word count for a specified section
-      function displayWordCount(sectionId, outputId) {
-        // Get the text content from the specified section
-        const text = document.getElementById(sectionId).textContent;
-        // Split text into words based on spaces and filter out any empty strings
-        const wordArray = text.trim().split(/\s+/);
-        // Count the words
-        const wordCount = wordArray.length;
-        // Return the word count for summing purposes
-        return wordCount;
-      }
-      // Function to calculate and display total word count from selected sections
-      function displayTotalWordCount() {
-        // Calculate word count for each section and accumulate the total
-        const AbstractCount = displayWordCount("Abstract");
-        const AnalysisCount = displayWordCount("Analysis");
-        const EvaluationCount = displayWordCount("Evaluation");
-        // Calculate the sum of all selected sections
-        const totalWordCount = AbstractCount + AnalysisCount + EvaluationCount;
-        // Display the total word count
-        document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
-      }
-      // Run the function for specific sections and display total count when the page loads
-      window.onload = displayTotalWordCount;
-    </script>
-
   </body>
   
 </html>
